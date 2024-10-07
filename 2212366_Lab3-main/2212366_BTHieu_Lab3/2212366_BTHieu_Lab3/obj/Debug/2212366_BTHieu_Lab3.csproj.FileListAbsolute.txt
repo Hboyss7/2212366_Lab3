@@ -8,13 +8,3 @@ D:\2212366\2212366_BTHieu_Lab3\2212366_BTHieu_Lab3\bin\Debug\2212366_BTHieu_Lab3
 D:\2212366\2212366_BTHieu_Lab3\2212366_BTHieu_Lab3\bin\Debug\2212366_BTHieu_Lab3.pdb
 D:\2212366\2212366_BTHieu_Lab3\2212366_BTHieu_Lab3\obj\Debug\2212366_BTHieu_Lab3.exe
 D:\2212366\2212366_BTHieu_Lab3\2212366_BTHieu_Lab3\obj\Debug\2212366_BTHieu_Lab3.pdb
-C:\Users\PC602\Downloads\2212366_Lab3-main\2212366_BTHieu_Lab3\2212366_BTHieu_Lab3\bin\Debug\2212366_BTHieu_Lab3.exe.config
-C:\Users\PC602\Downloads\2212366_Lab3-main\2212366_BTHieu_Lab3\2212366_BTHieu_Lab3\bin\Debug\2212366_BTHieu_Lab3.exe
-C:\Users\PC602\Downloads\2212366_Lab3-main\2212366_BTHieu_Lab3\2212366_BTHieu_Lab3\bin\Debug\2212366_BTHieu_Lab3.pdb
-C:\Users\PC602\Downloads\2212366_Lab3-main\2212366_BTHieu_Lab3\2212366_BTHieu_Lab3\obj\Debug\2212366_BTHieu_Lab3.csproj.AssemblyReference.cache
-C:\Users\PC602\Downloads\2212366_Lab3-main\2212366_BTHieu_Lab3\2212366_BTHieu_Lab3\obj\Debug\_2212366_BTHieu_Lab3.Properties.Resources.resources
-C:\Users\PC602\Downloads\2212366_Lab3-main\2212366_BTHieu_Lab3\2212366_BTHieu_Lab3\obj\Debug\2212366_BTHieu_Lab3.csproj.GenerateResource.cache
-C:\Users\PC602\Downloads\2212366_Lab3-main\2212366_BTHieu_Lab3\2212366_BTHieu_Lab3\obj\Debug\2212366_BTHieu_Lab3.csproj.CoreCompileInputs.cache
-C:\Users\PC602\Downloads\2212366_Lab3-main\2212366_BTHieu_Lab3\2212366_BTHieu_Lab3\obj\Debug\2212366_BTHieu_Lab3.exe
-C:\Users\PC602\Downloads\2212366_Lab3-main\2212366_BTHieu_Lab3\2212366_BTHieu_Lab3\obj\Debug\2212366_BTHieu_Lab3.pdb
-C:\Users\PC602\Downloads\2212366_Lab3-main\2212366_BTHieu_Lab3\2212366_BTHieu_Lab3\obj\Debug\_2212366_BTHieu_Lab3.FrmSinhVien.resources

@@ -34,6 +34,33 @@ namespace _2212366_BTHieu_Lab3
             this.ChuyenNganh = cn;
         }
 
+        public override string ToString()
+        {
+            string s = "";
+            s = "Sinh viên có" + " Mã số: " + MaSo + "\n"
+                               + " Họ tên: " + HoTen + "\n"
+                               + " Ngày sinh: " + NgaySinh.ToString() + "\n"
+                               + " Địa chỉ: " + DiaChi + "\n"
+                               + " Lớp: " + Lop + "\n"
+                               + " Hinh " + Hinh + "\n";
+            string gt = "Giới tính: ";
+            if (GioiTinh)
+            {
+                gt += "Nam";
+            }
+            else
+            {
+                gt += "Nữ";
+            }
+
+            string cn = "Chuyên ngành: ";
+            foreach (string item in ChuyenNganh)
+            {
+                cn += item + "\n";
+            }
+            s = s + gt + "\n" + cn;             
+            return s;
+        }
 
     }
 }

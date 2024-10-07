@@ -16,7 +16,7 @@ namespace _2212366_BTHieu_Lab3
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmDemo());
+            Application.Run(new FrmSinhVien());
         }
     }
 }

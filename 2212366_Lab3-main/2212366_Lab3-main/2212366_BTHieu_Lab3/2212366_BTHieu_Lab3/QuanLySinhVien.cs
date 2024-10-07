@@ -13,7 +13,7 @@ namespace _2212366_BTHieu_Lab3
     internal class QuanLySinhVien
 
     {
-        List<SinhVien> DanhSach;
+        public List<SinhVien> DanhSach;
 
         public QuanLySinhVien()
         {
@@ -88,13 +88,14 @@ namespace _2212366_BTHieu_Lab3
 
         public void DocTuFile()
         {
-            string filename = "",line;
+            //string filename = "D:\\Lâp trình ứng dụng desktop\\10-7\\2212366_Lab3-main\\2212366_Lab3-main\\2212366_BTHieu_Lab3\\2212366_BTHieu_Lab3\\ds.txt",
+            string filename = "ds2.txt",
+                line; // biến được gán khi đọc từng dòng
             FileStream file = new FileStream(filename, FileMode.Open);
             StreamReader sr = new StreamReader(file);
             string[] chuoi;
             SinhVien sv;
-            string[] cn;
-
+            
             while (( line = sr.ReadLine())!=null) 
             {
                 chuoi = line.Split(';');
@@ -102,23 +103,38 @@ namespace _2212366_BTHieu_Lab3
                 sv.MaSo = chuoi[0];
                 sv.HoTen = chuoi[1];
                 sv.NgaySinh = DateTime.Parse(chuoi[2]);
-                sv.DiaChi = chuoi[4];
-                sv.Lop = chuoi[5];
-                sv.Hinh = chuoi[6];
-                sv.GioiTinh = true;
-                if (chuoi[7] == "Nữ")
+                sv.DiaChi = chuoi[3];   
+                sv.Lop = chuoi[4];  
+                sv.Hinh = chuoi[5];
+                sv.GioiTinh = false;
+                if (chuoi[6] == "1" )
                 {
-                    sv.GioiTinh = false;
+                    sv.GioiTinh = true;
                 }
-                cn = chuoi[7].Split(',');
-                foreach (string item in cn)
+                string[] cn = chuoi[7].Split(',');
+                sv.ChuyenNganh = new List<string>();
+                foreach (var item in cn )
                 {
                     sv.ChuyenNganh.Add(item);
                 }
-                
-                this.Them(sv);
+
+                this.Them(sv);            
             }
 
+        }
+        // DocTuFile (StreamReader sr = new StreamReader(file))
+        //          _file la 1 FileStream khởi tạo cần string tenFile và FileMode.Open
+        //          _ Doc tung dong sr.ReadLine() cho tới khi Null
+        //          _ Tung dong do se split ra thanh phan 
+
+        public override string ToString()
+        {
+            string s = "UI";
+            foreach (var item in DanhSach)
+            {
+                s+= item.ToString() + "\n";
+            }
+            return s;
         }
     }
 }
